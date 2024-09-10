@@ -7,7 +7,7 @@ from keras.models import load_model
 
 app = Flask(__name__)
 
-model = load_model('model\model.keras')
+model = load_model('model/model.keras')
 print('Model loaded. Check http://127.0.0.1:5000/')
 
 labels = {0: 'Healthy', 1: 'Powdery', 2: 'Rust'}
