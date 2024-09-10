@@ -1,0 +1,6 @@
+Flask==2.1.1
+Werkzeug==2.1.1
+numpy==1.24.3
+tensorflow==2.13.0  # Ensure this version matches your environment; adjust if needed
+keras==2.13.0  # Matches the TensorFlow version; adjust accordingly
+Pillow==9.5.0  # Required for image loading and processing
