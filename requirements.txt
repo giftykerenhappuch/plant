@@ -1,7 +1,7 @@
 Flask==3.0.3
 Werkzeug==3.0.3
 numpy==1.24.3
-tensorflow==2.17.0  # Ensure this version matches your environment; adjust if needed
-keras==3.5.0  # Matches the TensorFlow version; adjust accordingly
-Pillow==10.4.0  # Required for image loading and processing
-gunicorn==23.0.0
+tensorflow-cpu==2.17.0  # Use CPU version to avoid CUDA issues
+keras==3.5.0  # Ensure compatibility with TensorFlow 2.17
+Pillow==10.4.0  # For image processing
+gunicorn==23.0.0  # For deploying the Flask app in production
